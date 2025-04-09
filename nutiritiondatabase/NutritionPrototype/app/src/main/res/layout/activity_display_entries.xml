@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <!-- Display Foods Section -->
+        <TextView
+            android:text="Foods"
+            android:textSize="18sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/displayFoods"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <!-- Display Foods Owned Section -->
+        <TextView
+            android:text="Foods Owned"
+            android:textSize="18sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"/>
+
+        <TextView
+            android:id="@+id/displayFoodsOwned"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <!-- Display Recipes Section -->
+        <TextView
+            android:text="Recipes"
+            android:textSize="18sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"/>
+
+        <TextView
+            android:id="@+id/displayRecipes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <!-- Display Recipe Ingredients Section -->
+        <TextView
+            android:text="Recipe Ingredients"
+            android:textSize="18sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"/>
+
+        <TextView
+            android:id="@+id/displayRecipeIngredients"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <!-- Display Events Section -->
+        <TextView
+            android:text="Events"
+            android:textSize="18sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"/>
+
+        <TextView
+            android:id="@+id/displayEvents"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+</ScrollView>

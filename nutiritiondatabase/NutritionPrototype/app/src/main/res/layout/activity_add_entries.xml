@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <!-- Add Food Section -->
+        <TextView
+            android:text="Add Food"
+            android:textSize="18sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/foodNameInput"
+            android:hint="Food Name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/caloriesInput"
+            android:hint="Calories"
+            android:inputType="number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/proteinInput"
+            android:hint="Protein Content"
+            android:inputType="numberDecimal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/fatInput"
+            android:hint="Fat Content"
+            android:inputType="numberDecimal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/carbInput"
+            android:hint="Carbohydrate Content"
+            android:inputType="numberDecimal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/addFoodButton"
+            android:text="Add Food"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <!-- Add Food Owned Section -->
+        <TextView
+            android:text="Add Food Owned"
+            android:textSize="18sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"/>
+
+        <EditText
+            android:id="@+id/foodOwnedIDInput"
+            android:hint="Food ID"
+            android:inputType="number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/quantityInput"
+            android:hint="Quantity"
+            android:inputType="number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/purchaseDateInput"
+            android:hint="Purchase Date (YYYY-MM-DD)"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/expirationDateInput"
+            android:hint="Expiration Date (YYYY-MM-DD)"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/storageLocationInput"
+            android:hint="Storage Location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/addFoodOwnedButton"
+            android:text="Add Food Owned"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <!-- Add Recipe Section -->
+        <TextView
+            android:text="Add Recipe"
+            android:textSize="18sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"/>
+
+        <EditText
+            android:id="@+id/recipeNameInput"
+            android:hint="Recipe Name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/instructionsInput"
+            android:hint="Instructions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/prepTimeInput"
+            android:hint="Prep Time (minutes)"
+            android:inputType="number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/cookTimeInput"
+            android:hint="Cook Time (minutes)"
+            android:inputType="number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/totalProteinInput"
+            android:hint="Total Protein"
+            android:inputType="numberDecimal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <!-- New Ingredient Inputs -->
+        <EditText
+            android:id="@+id/additionalIngredientInputone"
+            android:hint="Additional Ingredient 1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/additionalIngredientInputtwo"
+            android:hint="Additional Ingredient 2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/additionalIngredientInputthree"
+            android:hint="Additional Ingredient 3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/addRecipeButton"
+            android:text="Add Recipe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <!-- Ingredients Section -->
+        <TextView
+            android:text="Add Ingredients"
+            android:textSize="18sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"/>
+
+        <LinearLayout
+            android:id="@+id/ingredientsLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"/>
+
+        <Button
+            android:id="@+id/addIngredientButton"
+            android:text="Add Ingredient"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/saveRecipeButton"
+            android:text="Save Recipe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"/>
+
+        <!-- Add Event Section -->
+        <TextView
+            android:text="Add Event"
+            android:textSize="18sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"/>
+
+        <EditText
+            android:id="@+id/eventNameInput"
+            android:hint="Event Name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/eventDateInput"
+            android:hint="Event Date (YYYY-MM-DD)"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/exertionLevelInput"
+            android:hint="Exertion Level"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/lengthOfEventInput"
+            android:hint="Length of Event (minutes)"
+            android:inputType="number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/descriptionInput"
+            android:hint="Description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/addEventButton"
+            android:text="Add Event"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+</ScrollView>
